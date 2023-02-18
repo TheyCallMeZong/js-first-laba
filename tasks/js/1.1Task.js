@@ -70,12 +70,11 @@ function setNgsDomainMap(){
 }
 
 function setData(value){
-    console.log(value)
-
     let empty = document.getElementById("none")
     if (empty !== null){
         empty.remove()
     }
+
     let table = document.createElement('table')
     let thead = document.createElement('thead')
     let tbody = document.createElement('tbody')
