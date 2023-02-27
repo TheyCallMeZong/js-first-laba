@@ -17,7 +17,7 @@ body{
 }
  .signature{
      width: 50%;
-     margin: 0em 1em 0em;
+     margin: 0 1em 0;
      float: left;
 }
  .tasks {
@@ -27,7 +27,7 @@ body{
      background-color: #ffffff;
      border: 1px solid #ccc;
      border-radius: 5px;
-     box-shadow: 0px 0px 10px #ccc;
+     box-shadow: 0 0 10px #ccc;
      font-family: Times New Roman, serif;
 }
  .tasks p {
