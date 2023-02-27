@@ -16,5 +16,8 @@
 
 <h2>Скачать репозиторий</h2>
 <pre>
-<code>https://github.com/TheyCallMeZong/js-first-laba.git</code>
+<code>git clone https://github.com/TheyCallMeZong/js-first-laba.git</code>
 </pre>
+
+<h2>Запуск программы</h2>
+Титульным листом является файл index.html
