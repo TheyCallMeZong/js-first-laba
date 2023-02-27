@@ -14,7 +14,6 @@ form {
   margin-top: 1em;
 }
 
-/* Styles for the select dropdown and label */
 label {
   display: inline-block;
   margin-right: 0.5em;
@@ -27,7 +26,6 @@ select {
   font-size: 16px;
 }
 
-/* Styles for the table container */
 #table {
   margin-top: 1em;
   padding: 1em;
@@ -36,7 +34,6 @@ select {
   border-radius: 5px;
 }
 
-/* Styles for table elements */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -61,8 +58,25 @@ td {
     font-size: 14px;
 }
 
-
-
 tr:hover {
-        background-color: #000;
+    background-color: #000;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(100, 100, 100, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #333;
 }

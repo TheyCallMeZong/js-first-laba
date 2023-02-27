@@ -26,11 +26,9 @@ h1 {
 
 .workflow {
     display: flex;
-    flex-wrap: wrap; /* Add this property to allow the steps to wrap to the next line */
+    flex-wrap: wrap;
     justify-content: space-between;
 }
-
-
 
 .step {
     flex-basis: calc(50% - 20px);
@@ -38,7 +36,7 @@ h1 {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
-    margin-bottom: 20px; /* Add this property to create space between each step */
+    margin-bottom: 20px;
 }
 
 .step span {
@@ -57,39 +55,40 @@ h1 {
 
 
 .description {
-margin-top: 20px;
-font-size: 16px;
-line-height: 1.5;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .description div {
-margin-top: 10px;
-margin-left: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
 }
 
 .description p {
-margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .container {
-width: 80%;
-max-width: 1000px;
-margin: 0 auto;
-padding: 40px 20px;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
 }
 
 .container2 {
-width: 80%;
-max-width: 1000px;
-margin: 0 auto;
-padding: 20px 20px;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 20px;
 }
 
 
 @media screen and (max-width: 768px) {
-.container {
-width: 90%;
-padding: 20px;
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
 }
 
 
