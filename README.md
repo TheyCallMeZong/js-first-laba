@@ -5,7 +5,7 @@
 <p>На сайте nic.ru воспользоваться сервисом whois – узнать информацию о доменах yandex.ru, google.com, ngs.ru.</p>
 <a href="https://github.com/TheyCallMeZong/js-first-laba/blob/main/tasks/1.1Task.html">Соответсвующий файл</a>
 <p>
-  Данные находятся в js файле и при изменении состояния combobox подгружаются соответсвующие данные
+  Данные находятся в js файле и при изменении состояния combobox данные для выбранного домена подгружаются в таблицу
 </p>
 <h3>1.2 Задание</h3>
 <p>Ввести в командной строке windows команду nslookup yandex.ru повторить ее для доменов google.com и ngs.ru</p>
