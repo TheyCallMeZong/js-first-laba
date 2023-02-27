@@ -27,8 +27,7 @@
   <li>Ознакомиться с инструментами разработчика Chrome на вкладке Network.</li>
   <li>Получить список запросов и подробную информацию о заголовках http-запроса и ответа сервера, содержимое ответов на примере сайта ngs.ru.</li>
 </ul>
-<p>Открыть браузер Chrome, нажать F12, перейти в открывшемся окне с инструментами разработчика на вкладку network, и зайти на любой интернет-сайт, например ngs.ru. Посмотреть список запросов и в нескольких запросах подробную информацию о заголовках http-запроса и ответа сервера, содержимое ответов.</p>
-<a href="https://github.com/TheyCallMeZong/js-first-laba/blob/main/tasks/2Task.html">Соответсвующий файл</a>
+<a href="https://github.com/TheyCallMeZong/js-first-laba/blob/main/tasks/2Task.html">Соответсвующий файл</a> 2 задания 
 <h2>Скачать репозиторий</h2>
 <pre>
 <code>git clone https://github.com/TheyCallMeZong/js-first-laba.git</code>
