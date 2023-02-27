@@ -35,4 +35,4 @@
 </pre>
 
 <h2>Запуск программы</h2>
-Титульным листом является файл <a href="https://github.com/TheyCallMeZong/js-first-laba/blob/main/index.html">main-page.html</a>
+Титульным листом является файл <a href="https://github.com/TheyCallMeZong/js-first-laba/blob/main/main-page.html">main-page.html</a>
