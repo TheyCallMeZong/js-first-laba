@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="index.css">
-    <script>
-        function getTodayData(){
-            const options = { month: "long" }
-            let date = new Date()
-            return document.getElementById("date").innerHTML = "'" + date.getDate().toString() + "' "
-                + new Intl.DateTimeFormat("ru-RU", options).format(date) + " " + date.getFullYear() + "г"
-        }
-    </script>
-</head>
-<body onload="getTodayData()">
-    <div class="content">
-        <div class="nstu">
-            <p>МИНИСТЕРСТВО ОБРАЗОВАНИЯ И НАУКИ РОССИЙСКОЙ ФЕДЕРАЦИИ</p>
-            <p>ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ</p>
-            <p>ОБРАЗОВАТЕЛЬНОЕ УЧЕРЕЖДЕНИЕ</p>
-            <p>ВЫСШЕГО ОБРАЗОВАНИЯ</p>
-            <p>«НОВОСИБИРСКИЙ ГОСУДАРСТВЕННЫЙ ТЕХНИЧЕСКИЙ УНИВЕРСИТЕТ»</p>
-            <p>__________________________________________________________________</p>
-            <p>Кафедра Автоматизированных систем управления</p>
-        </div>
-        <br>
-        <img class="nstu-logo" src="images/nstu-logo.png" alt="nstu logo"/>
-        <div class="name">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="index.css">
+        <script>
+            function getTodayData(){
+                const options = { month: "long" }
+                let date = new Date()
+                return document.getElementById("date").innerHTML = "'" + date.getDate().toString() + "' "
+                    + new Intl.DateTimeFormat("ru-RU", options).format(date) + " " + date.getFullYear() + "г"
+            }
+        </script>
+    </head>
+    <body onload="getTodayData()">
+        <div class="content">
+            <div class="nstu">
+                <p>МИНИСТЕРСТВО ОБРАЗОВАНИЯ И НАУКИ РОССИЙСКОЙ ФЕДЕРАЦИИ</p>
+                <p>ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ</p>
+                <p>ОБРАЗОВАТЕЛЬНОЕ УЧЕРЕЖДЕНИЕ</p>
+                <p>ВЫСШЕГО ОБРАЗОВАНИЯ</p>
+                <p>«НОВОСИБИРСКИЙ ГОСУДАРСТВЕННЫЙ ТЕХНИЧЕСКИЙ УНИВЕРСИТЕТ»</p>
+                <p>__________________________________________________________________</p>
+                <p>Кафедра Автоматизированных систем управления</p>
+            </div>
             <br>
-            <p>1 Лабораторная работа "Принципы работы веб-приложений."</p>
-            <p>по дисциплине: «Web-программирование»</p>
+            <img class="nstu-logo" src="images/nstu-logo.png" alt="nstu logo"/>
+            <div class="name">
+                <br>
+                <p>1 Лабораторная работа "Принципы работы веб-приложений."</p>
+                <p>по дисциплине: «Web-программирование»</p>
+            </div>
         </div>
-    </div>
         <div class="signature">
             <div>
                 Выполнили студенты НГТУ гр. АП-026, АВТФ:
@@ -59,22 +59,21 @@
                 <em id="date"></em>
             </div>
         </div>
-    <div class="down-title">
-        <br>
-        <div>г. Новосибирск</div>
-        <div>2023г</div>
-    </div>
-
-    <div class="tasks">
-        <p style="text-align: center">Содержание</p>
-        <ul> 1 Задание
-            <li><a href="tasks/1.1Task.html">1.1 задание</a></li>
-            <li><a href="tasks/1.2Task.html">1.2 задание</a></li>
-            <li><a href="tasks/1.3Task.html">1.3 задание</a></li>
-        </ul>
-        <ul> 2 Задание
-            <li><a href="tasks/2Task.html">2 задание</a></li>
-        </ul>
-    </div>
-</body>
+        <div class="down-title">
+            <br>
+            <div>г. Новосибирск</div>
+            <div>2023г</div>
+        </div>
+        <div class="tasks">
+            <p>Содержание</p>
+            <ul>
+                <li><a href="tasks/1.1Task.html">1.1 задание</a></li>
+                <li><a href="tasks/1.2Task.html">1.2 задание</a></li>
+                <li><a href="tasks/1.3Task.html">1.3 задание</a></li>
+            </ul>
+            <ul>
+                <li><a href="tasks/2Task.html">2 задание</a></li>
+            </ul>
+        </div>
+    </body>
 </html>
